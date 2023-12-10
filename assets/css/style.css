@@ -294,6 +294,11 @@
   margin-right: 25px;
 }
 
+.testimonials .inner-box .inner-content .inner-author:hover {
+  margin-left: 10px;
+  transition: 0.5s;
+}
+
 .testimonials .inner-box .inner-content .inner-name {
   color: var(--color-text-one);
   font-size: 18px;
@@ -354,6 +359,14 @@
   margin: 6px 0;
 }
 
+.pricing-tables .box-one .inner-list li:nth-child(4),
+.pricing-tables .box-one .inner-list li:nth-child(5),
+.pricing-tables .box-one .inner-list li:nth-child(6), 
+.pricing-tables .box-two .inner-list li:nth-child(5), 
+.pricing-tables .box-two .inner-list li:nth-child(6) {
+  text-decoration: line-through;
+}
+
 .pricing-tables .inner-box .button {
   margin-top: 30px;
 }
@@ -373,6 +386,11 @@
 
 .counter-parallax .inner-box {
   margin: 25px 0;
+}
+
+.counter-parallax .inner-box:hover {
+  margin-top: 10px;
+  transition: 0.5s;
 }
 
 .counter-parallax .inner-box .inner-num {
@@ -488,6 +506,16 @@
 
 .footer .inner-social li i {
   color: var(--color-one);
+}
+
+.footer .inner-social li:hover {
+  background-color: var(--color-two);
+  transition: 0.3s;
+}
+
+.footer .inner-social li:hover i {
+  color: #fff;
+  transition: 0.3s;
 }
 
 .footer .inner-copyright {
